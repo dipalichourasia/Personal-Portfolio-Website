@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo-removebg-preview.png" class="logo">
+            <ul id="sidemenu">
+                <!-- <li><a href="#header">Portfolio</a></li> -->
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p> Aspiring Software Developer</p>
+            <h1>Hi, I'm <span>Dipali</span><br>From India</h1>
+
+            <div class="social-icons">
+                <a href="http://www.linkedin.com/in/dipalichourasia"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/dipalichourasia"><i class="fa-brands fa-github"></i></a>
+                <a href="dipalichourasia5@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="c:\Users\Administrator\Downloads\Dipali Chourasia Resume (1).pdf"><i class="fa-solid fa-file"></i></a>
+                <a href="https://www.hackerrank.com/profile/dipalichourasia5"><i class="fa-brands fa-hackerrank"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------about----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+            <img src="myprofile3.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p><i class="fa-solid fa-arrows-to-dot"></i> I'm Dipali Chourasia currently an undergraduate student pursuing my Bachelor of Computer Application at the Dhote Bandhu Science College Gondia, affiliated with Nagpur University, Maharashtra.</p><br>
+                <p><i class="fa-solid fa-arrows-to-dot"></i> I'm an aspiring software developer with a strong foundation in programming and a passion for building innovative solutions. I am driven by curiosity and a commitment to continuous learning, aiming to leverage my skills in software development to solve real-world problems. With a keen interest in developing efficient, scalable applications, I am eager to contribute to dynamic teams and make a meaningful impact in the tech industry.</p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages</span><br>C++, C, JavaScript, SQL</li>
+                        <li><span>Front-end Development</span><br>HTML, CSS, JS</li>
+                        <li><span>Database</span><br>MySQL</li>
+                        <li><span>College Coursework</span><br>Computer Fundamentals, DBMS, SQL</li>
+                        <li><span>IDE's</span><br>VS code, Code::Blocks</li>
+                        <li><span>Version Control</span><br>GitHub</li>
+                        <li><span>Others</span><br>MS-Office, Canva</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents"  id="experience">
+                    <ul>
+                        <li><span>Jan-Feb 2024</span><br>Web Development Internship at RTSoft Solutions Gondia MH.</li>
+                        <p>I have Successfully completed Web Development Internship, gaining valuable experience in various aspects of web development and enhancing soft skills</p>
+                </div>
+
+                <div class="tab-contents"  id="education">
+                    <ul>
+                        <li><span>2024 final year</span><br>BCA from RTM Nagpure University</li>
+                        <li><span>2022</span><br>12th from S.M Patel Jr. College Gondia</li>
+                        <li><span>2020</span><br>10th from G.N.H School Gondia</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------------services--------------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Front-end Design</h2>
+                <p>As a passionate and detail-oriented frontend developer, I bring a fresh perspective to creating engaging, responsive, and user-friendly websites using HTML, CSS, and JavaScript. I am eager to apply my skills to real-world projects, ensuring seamless design and functionality for an exceptional user experience.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Software Design</h2>
+                <p>As a passionate software developer, I offer expertise in coding, debugging, and problem-solving across various programming languages. I excel at building responsive web applications, ensuring seamless user experiences. I'm eager to apply my skills to create innovative solutions and drive impactful results.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI Design</h2>
+                <p>As a fresher UI designer skilled in Canva, I craft visually appealing and user-friendly designs that enhance brand presence and user experience. I focus on creating intuitive layouts and graphics tailored to client needs, ensuring effective communication and engagement through clean and modern design aesthetics.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-------------portfolio--------------->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+
+            <div class="work">
+                <img src="projectimage.jpg">
+                <div class="layer">
+                    <h3>Text To Voice Converter</h3>
+                    <p> Developed a Text-to-Voice Converter using HTML, CSS, and JavaScript. This web application allows users to input text and convert it into speech with a single click. The intuitive interface, styled with CSS, provides a seamless user experience, while JavaScript handles text processing and speech synthesis.</p>
+                    <a href="https://dipali-proj-text-to-voice-converter.netlify.app/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="project2.jpg">
+                <div class="layer">
+                    <h3>NewsHub</h3>
+                    <p>This NewsHub project is made by using three technology html,css,js. I also use API for feteching data in our website.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="project3.jpg">
+                <div class="layer">
+                    <h3>Personal Portfolio Website</h3>
+                   <p>This is my personal portfolio website which showcase about Myself, my Projects & Experience.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+
+ <!-----------------contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>dipalichourasia5@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9309117153</p>
+                <div class="social-icons">
+                    <a href="http://www.linkedin.com/in/dipalichourasia"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/dipalichourasia"><i class="fa-brands fa-github"></i></a>
+                    <a href="dipalichourasia5@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href=""><i class="fa-solid fa-file"></i></a>
+                    <a href="https://www.hackerrank.com/profile/dipalichourasia5"><i class="fa-brands fa-hackerrank"></i></a>
+                </div>
+                <a href="Downloads/Dipali Chourasia Resume (1).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Created by Dipali Chourasia. All rights reserved. | Privacy Policy | Terms of Service <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
